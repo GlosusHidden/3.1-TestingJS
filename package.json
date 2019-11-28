@@ -1,0 +1,26 @@
+{
+  "name": "TestOne",
+  "version": "1.0.0",
+  "description": "TestOne",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Pchelkin Alexandr",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "dot": "^1.1.2",
+    "express": "^4.16.4",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4",
+    "puppeteer": "^2.0.0",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  }
+}
